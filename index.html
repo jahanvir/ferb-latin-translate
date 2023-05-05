@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/ferb.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Funny Translate</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-brand">FerbLatin</div>
+    </nav>
+
+    <div class="hero">
+      <img src="./public/ferb.png" class="hero-image">
+      <h1 class="hero-heading" style="color:orange"> Ferb<span style="color:green"> Latin</span> <span style="color:black">Translate</span>  </h1>
+    </div>
+
+    <div class="container-center content>">
+      <textarea id="txt-input" placeholder="Enter your english sentence here"></textarea>
+      <div id="errorMessage" class="errorBox"></div>
+      <div class="container-center btn">
+        <button id="btn-translate">Translate to Ferb-latin</button>
+      </div>
+      <div class="padding-small"></div>
+      <span class="outputhere-text">Output</span>
+      <div id="output"></div>
+      <div class="padding-medium"></div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-about">
+       'Well, if by that you mean we should create a whole new form of communication, then I couldn't agree more!'
+      </div>
+      <div class="footer-header">
+        ~ Phineas Flynn
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
